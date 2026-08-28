@@ -68,19 +68,17 @@ I use human-genetics evidence to separate true causal drivers from noise, and I 
       <sub>Drug-target discovery · graduating 2027</sub>
     </td>
     <td width="33%" valign="top">
-      <strong>KAUST</strong><br /><br />
-      MSc<br />
-      <sub>Thesis ranked in the year's top ten</sub>
-    </td>
-    <td width="34%" valign="top">
       <strong>CABS</strong><br /><br />
       Data Science Summer Intern, 2026<br />
       <sub>Built a drug-target agent end to end; mentored a teammate to a working one</sub>
     </td>
+    <td width="34%" valign="top">
+      <strong>Published</strong><br /><br />
+      <em>Nature Communications</em> (accepted, 2026) · <em>Advanced Science</em> (2023) · <em>IEEE TPAMI</em> (2021)<br />
+      <sub>ESHG 2026 poster, Gothenburg — proteome-wide causal inference for metabolic liver disease</sub>
+    </td>
   </tr>
 </table>
-
-Recent: *Nature Communications* (accepted, 2026) · *Advanced Science* (2023) · *IEEE TPAMI* (2021) · ESHG 2026 poster, Gothenburg — proteome-wide causal inference for metabolic liver disease
 
 ## Toolkit
 
