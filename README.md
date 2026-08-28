@@ -17,20 +17,17 @@ I use human-genetics evidence to separate true causal drivers from noise, and I 
   <tr>
     <td width="33%" valign="top">
       <strong>🧬 The science</strong><br /><br />
-      Causal genetics of obesity<br />
-      and metabolic disease<br />
+      Causal genetics of obesity and metabolic disease<br />
       <sub>Butler-Laporte lab, McGill</sub>
     </td>
     <td width="33%" valign="top">
       <strong>🎯 The method</strong><br /><br />
-      Mendelian randomization<br />
-      + colocalization<br />
+      Mendelian randomization + colocalization<br />
       <sub>proteome-wide, to nominate and de-risk targets</sub>
     </td>
     <td width="34%" valign="top">
       <strong>🤖 What I build</strong><br /><br />
-      LLM tool-calling agents<br />
-      over public databases<br />
+      LLM tool-calling agents over public databases<br />
       <sub>evidence you can check, line by line</sub>
     </td>
   </tr>
