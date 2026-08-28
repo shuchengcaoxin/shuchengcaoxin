@@ -43,24 +43,19 @@ I use human-genetics evidence to separate true causal drivers from noise, and I 
 **Type a protein and a disease. Get back one evidence card you can check, line by line.**
 
 <p align="center">
-  <a href="https://github.com/shuchengcaoxin/CausalSentinel">
-    <img src="https://raw.githubusercontent.com/shuchengcaoxin/CausalSentinel/main/figs/app_02_card.png" width="92%" alt="OpenCausal: a freshly built evidence card — the verdict, a reading written by code, one panel per database" />
-  </a>
+  <img src="assets/opencausal-flow.svg" width="100%" alt="OpenCausal: published MR estimates and eight downstream databases go into a ledger that stores every answer word for word; code renders the card; an unsupported claim gets the page rejected. 991 protein dossiers, 101,543 retrieved MR estimates, 9 live public databases, 0 API keys needed." />
 </p>
-
-<table>
-  <tr>
-    <td align="center" width="25%"><strong>991</strong><br /><sub>protein dossiers</sub></td>
-    <td align="center" width="25%"><strong>101,543</strong><br /><sub>retrieved MR estimates</sub></td>
-    <td align="center" width="25%"><strong>9</strong><br /><sub>live public databases</sub></td>
-    <td align="center" width="25%"><strong>0</strong><br /><sub>API keys needed</sub></td>
-  </tr>
-</table>
 
 - The card is rendered by code, not written by the model
 - The model writes two sentences — a validator rejects the page if either is unsupported
 - Benchmarked on 20 pairs history already decided: every GO was a drug that launched
 - MR estimates are always *retrieved*, never computed here
+
+<p align="center">
+  <a href="https://github.com/shuchengcaoxin/CausalSentinel">
+    <img src="https://raw.githubusercontent.com/shuchengcaoxin/CausalSentinel/main/figs/app_02_card.png" width="92%" alt="OpenCausal: a freshly built evidence card — the verdict, a reading written by code, one panel per database" />
+  </a>
+</p>
 
 **[Explore repository →](https://github.com/shuchengcaoxin/CausalSentinel)** &nbsp;&nbsp; **[Browse 991 protein dossiers →](https://ds4cabs.github.io/CausalSentinel/dossiers/)** &nbsp;&nbsp; **[Card viewer →](https://ds4cabs.github.io/CausalSentinel/viewer/)**
 

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="OpenCausal: nine public databases become one evidence card, rendered by code and rejected if unsupported">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0E1013"/>
+      <stop offset="60%"  stop-color="#15181D"/>
+      <stop offset="100%" stop-color="#1E2229"/>
+    </linearGradient>
+
+    <pattern id="dots2" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#E0A83C" opacity="0.09"/>
+    </pattern>
+
+    <filter id="g2" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <style>
+      .h { font-family: "Segoe UI", Inter, -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg2)"/>
+  <rect width="1200" height="320" fill="url(#dots2)"/>
+
+  <text class="h" x="60" y="52" font-size="24" font-weight="700" fill="#F5F2EC">From nine public databases to one card you can check</text>
+  <text class="h" x="61" y="76" font-size="11.5" fill="#8C8578" letter-spacing="2.2">OPENCAUSAL  /  HOW ONE EVIDENCE CARD IS BUILT</text>
+
+  <!-- ── inputs ─────────────────────────────────────────────────────────── -->
+  <rect x="60" y="108" width="196" height="58" rx="10" fill="#0C0E11" stroke="#E0A83C" stroke-width="1.5"/>
+  <text class="h" x="76" y="133" font-size="14" font-weight="700" fill="#F5F2EC">Published MR estimates</text>
+  <text class="h" x="76" y="152" font-size="11.5" fill="#C9C2B6">EpiGraphDB &#183; retrieved, not computed</text>
+
+  <rect x="60" y="180" width="196" height="58" rx="10" fill="#0C0E11" stroke="#E0A83C" stroke-width="1.5"/>
+  <text class="h" x="76" y="205" font-size="14" font-weight="700" fill="#F5F2EC">8 downstream databases</text>
+  <text class="h" x="76" y="224" font-size="11.5" fill="#C9C2B6">UniProt &#183; ChEMBL &#183; gnomAD &#183; ClinVar &#8230;</text>
+
+  <g fill="none" stroke="#E0A83C" stroke-width="1.6">
+    <path d="M256,137 C294,137 294,173 314,173"/>
+    <path d="M256,209 C294,209 294,173 314,173"/>
+  </g>
+  <polygon points="326,173 314,167 314,179" fill="#E0A83C"/>
+
+  <!-- ── the ledger ─────────────────────────────────────────────────────── -->
+  <rect x="330" y="126" width="216" height="94" rx="12" fill="#0C0E11" stroke="#E0A83C" stroke-width="1.6" filter="url(#g2)"/>
+  <text class="h" x="438" y="166" font-size="30" font-weight="700" fill="#E0A83C" text-anchor="middle">THE LEDGER</text>
+  <text class="h" x="438" y="190" font-size="12.5" fill="#C9C2B6" text-anchor="middle">every answer stored word for word</text>
+
+  <path d="M550,173 L572,173" fill="none" stroke="#E0A83C" stroke-width="1.6"/>
+  <polygon points="584,173 572,167 572,179" fill="#E0A83C"/>
+
+  <!-- ── code renders ───────────────────────────────────────────────────── -->
+  <rect x="596" y="126" width="216" height="94" rx="12" fill="#0C0E11" stroke="#E0A83C" stroke-width="1.6"/>
+  <text class="h" x="704" y="166" font-size="26" font-weight="700" fill="#E0A83C" text-anchor="middle">CODE renders</text>
+  <text class="h" x="704" y="190" font-size="12.5" fill="#C9C2B6" text-anchor="middle">the model writes only 2 sentences</text>
+
+  <path d="M816,173 L838,173" fill="none" stroke="#E0A83C" stroke-width="1.6"/>
+  <polygon points="850,173 838,167 838,179" fill="#E0A83C"/>
+
+  <!-- ── the card ───────────────────────────────────────────────────────── -->
+  <rect x="862" y="126" width="278" height="94" rx="12" fill="#0C0E11" stroke="#F3C978" stroke-width="1.8" filter="url(#g2)"/>
+  <text class="h" x="1001" y="161" font-size="19" font-weight="700" fill="#F5F2EC" text-anchor="middle">One evidence card</text>
+  <text class="h" x="1001" y="183" font-size="12" fill="#C9C2B6" text-anchor="middle">every number named &#183; 62 tests</text>
+  <text class="h" x="1001" y="202" font-size="12" font-weight="700" fill="#F3C978" text-anchor="middle">unsupported claim &#8594; page rejected</text>
+
+  <!-- ── numbers strip ──────────────────────────────────────────────────── -->
+  <line x1="60" y1="252" x2="1140" y2="252" stroke="#E0A83C" stroke-width="1" opacity="0.28"/>
+  <g class="h" text-anchor="middle">
+    <text x="180"  y="284" font-size="22" font-weight="700" fill="#E0A83C">991</text>
+    <text x="180"  y="303" font-size="11" fill="#8C8578" letter-spacing="1.2">PROTEIN DOSSIERS</text>
+    <text x="450"  y="284" font-size="22" font-weight="700" fill="#E0A83C">101,543</text>
+    <text x="450"  y="303" font-size="11" fill="#8C8578" letter-spacing="1.2">RETRIEVED MR ESTIMATES</text>
+    <text x="750"  y="284" font-size="22" font-weight="700" fill="#E0A83C">9</text>
+    <text x="750"  y="303" font-size="11" fill="#8C8578" letter-spacing="1.2">LIVE PUBLIC DATABASES</text>
+    <text x="1020" y="284" font-size="22" font-weight="700" fill="#E0A83C">0</text>
+    <text x="1020" y="303" font-size="11" fill="#8C8578" letter-spacing="1.2">API KEYS NEEDED</text>
+  </g>
+</svg>
