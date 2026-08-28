@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <a href="https://shuchengcaoxin.github.io"><img src="https://img.shields.io/badge/🌐_Website-Portfolio-4285F4?style=for-the-badge" alt="Website" /></a>
-  <a href="https://scholar.google.com/citations?user=q1cAyE0AAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
-  <a href="https://www.linkedin.com/in/shucheng-bangli-cao/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.researchgate.net/profile/Shucheng-Cao"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate" /></a>
-  <a href="https://x.com/BangliCao"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="mailto:shucheng.cao@mail.mcgill.ca"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://shuchengcaoxin.github.io"><img src="https://img.shields.io/badge/Website-0E1013?style=for-the-badge&logo=googlechrome&logoColor=E0A83C" alt="Website" /></a>
+  <a href="https://scholar.google.com/citations?user=q1cAyE0AAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-0E1013?style=for-the-badge&logo=googlescholar&logoColor=E0A83C" alt="Google Scholar" /></a>
+  <a href="https://www.linkedin.com/in/shucheng-bangli-cao/"><img src="https://img.shields.io/badge/LinkedIn-0E1013?style=for-the-badge&logo=linkedin&logoColor=E0A83C" alt="LinkedIn" /></a>
+  <a href="https://www.researchgate.net/profile/Shucheng-Cao"><img src="https://img.shields.io/badge/ResearchGate-0E1013?style=for-the-badge&logo=researchgate&logoColor=E0A83C" alt="ResearchGate" /></a>
+  <a href="https://x.com/BangliCao"><img src="https://img.shields.io/badge/X-0E1013?style=for-the-badge&logo=x&logoColor=E0A83C" alt="X" /></a>
+  <a href="mailto:shucheng.cao@mail.mcgill.ca"><img src="https://img.shields.io/badge/Email-0E1013?style=for-the-badge&logo=gmail&logoColor=E0A83C" alt="Email" /></a>
 </p>
 
 I use human-genetics evidence to separate true causal drivers from noise, and I build LLM agents that turn public databases into cited, decision-ready evidence for drug targets.
@@ -53,7 +53,7 @@ I use human-genetics evidence to separate true causal drivers from noise, and I 
 
 <p align="center">
   <a href="https://github.com/shuchengcaoxin/CausalSentinel">
-    <img src="https://raw.githubusercontent.com/shuchengcaoxin/CausalSentinel/main/figs/app_02_card.png" width="92%" alt="OpenCausal: a freshly built evidence card — the verdict, a reading written by code, one panel per database" />
+    <img src="assets/opencausal-card.png" width="96%" alt="A freshly built evidence card: the run declares that no model was called and validation passed, a reading composed by code from the ledger, then one panel per database — the MR estimate with its instrument and Steiger check, and the clinical development record with max stage per disease" />
   </a>
 </p>
 
