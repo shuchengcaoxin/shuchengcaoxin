@@ -25,7 +25,14 @@ I am a PhD candidate at **McGill University** in [Quantitative Life Sciences](ht
 
 ### 🚀 Featured Projects
 
-🧬 ***[CausalSentinel](https://github.com/ds4cabs/CausalSentinel)*** — an LLM agent that, given a protein + disease, autonomously queries **8 public genetics & safety databases** (UniProt, Open Targets, ChEMBL, ClinVar, gnomAD, GWAS Catalog, PharmGKB, IEU OpenGWAS) and writes a **cited causal-evidence card with a go/no-go verdict**.
+🧬 ***[CausalSentinel / OpenCausal](https://github.com/shuchengcaoxin/CausalSentinel)*** — give it a protein and a disease, and it returns one **evidence card you can check, line by line**. It retrieves published Mendelian randomization estimates, queries **9 public genetics & safety databases** live (EpiGraphDB, Open Targets, ChEMBL, UniProt, ClinVar, gnomAD, GWAS Catalog, ClinPGx, clinical development records), and **renders the card by code** — the model only writes a one-line verdict and one paragraph, and a validator rejects the page if either is unsupported.
+
+- **A web app with no key and no cost** — type any pair, pick which databases to query, get the card in ~20 seconds
+- **991 pre-generated protein dossiers** indexing 101,543 retrieved MR estimates
+- **Benchmarked against 20 target–disease pairs history already decided** — every GO it gave was a drug that launched; it backed none of the failures
+- **62 regression tests** behind the claim checker; MR is always *retrieved*, never computed here
+
+Built as the core of the CABS 2026 team project ([upstream repo](https://github.com/ds4cabs/CausalSentinel), with Natalie Huang's OpenSentinel drug-safety module).
 
 #### 🛠️ Languages & Tools
 
