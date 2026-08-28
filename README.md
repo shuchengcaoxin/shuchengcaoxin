@@ -89,10 +89,6 @@ Recent: *Nature Communications* (accepted, 2026) · *Advanced Science* (2023) ·
 
 `Python` · `R` · `Bash` · `Git` · Mendelian randomization · colocalization · GWAS / pQTL · LLM agents · RAG · tool calling
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,r,bash,linux,git,github,pytorch,vscode" alt="Tech stack" />
-</p>
-
 ## Connect
 
 [Website](https://shuchengcaoxin.github.io) · [Google Scholar](https://scholar.google.com/citations?user=q1cAyE0AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/shucheng-bangli-cao/) · [ResearchGate](https://www.researchgate.net/profile/Shucheng-Cao) · [Email](mailto:shucheng.cao@mail.mcgill.ca)
