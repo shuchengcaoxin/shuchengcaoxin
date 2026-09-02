@@ -1,91 +1,27 @@
-<p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Shucheng (Bangli) Cao — statistical and causal genetics, Mendelian randomization, AI agents for drug-target evidence" />
-</p>
+# Shucheng (Bangli) Cao
 
-<p align="center">
-  <a href="https://shuchengcaoxin.github.io"><img src="https://img.shields.io/badge/Website-0E1013?style=for-the-badge&logo=googlechrome&logoColor=E0A83C" alt="Website" /></a>
-  <a href="https://scholar.google.com/citations?user=q1cAyE0AAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-0E1013?style=for-the-badge&logo=googlescholar&logoColor=E0A83C" alt="Google Scholar" /></a>
-  <a href="https://www.linkedin.com/in/shucheng-bangli-cao/"><img src="https://img.shields.io/badge/LinkedIn-0E1013?style=for-the-badge&logo=linkedin&logoColor=E0A83C" alt="LinkedIn" /></a>
-  <a href="https://www.researchgate.net/profile/Shucheng-Cao"><img src="https://img.shields.io/badge/ResearchGate-0E1013?style=for-the-badge&logo=researchgate&logoColor=E0A83C" alt="ResearchGate" /></a>
-  <a href="https://x.com/BangliCao"><img src="https://img.shields.io/badge/X-0E1013?style=for-the-badge&logo=x&logoColor=E0A83C" alt="X" /></a>
-  <a href="mailto:shucheng.cao@mail.mcgill.ca"><img src="https://img.shields.io/badge/Email-0E1013?style=for-the-badge&logo=gmail&logoColor=E0A83C" alt="Email" /></a>
-</p>
+PhD candidate in Quantitative Life Sciences at McGill University, working in causal and statistical genetics.
 
-I use human-genetics evidence to separate true causal drivers from noise, and I build LLM agents that turn public databases into cited, decision-ready evidence for drug targets.
+I study whether circulating proteins contribute causally to obesity and metabolic liver disease. Most of my research uses Mendelian randomization, colocalization, and large-scale GWAS and pQTL data. I also build research tools when the evidence trail is difficult to inspect.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>🧬 The science</strong><br /><br />
-      Causal genetics of obesity and metabolic disease<br />
-      <sub>Butler-Laporte lab, McGill</sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>🎯 The method</strong><br /><br />
-      Mendelian randomization + colocalization<br />
-      <sub>proteome-wide, to nominate and de-risk targets</sub>
-    </td>
-    <td width="34%" valign="top">
-      <strong>🤖 What I build</strong><br /><br />
-      LLM tool-calling agents over public databases<br />
-      <sub>evidence you can check, line by line</sub>
-    </td>
-  </tr>
-</table>
+[Website](https://shuchengcaoxin.github.io) · [Google Scholar](https://scholar.google.com/citations?user=q1cAyE0AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/shucheng-bangli-cao/) · [Email](mailto:shucheng.cao@mail.mcgill.ca)
 
-## Featured project
+## Current work
 
-### [CausalSentinel / OpenCausal](https://github.com/shuchengcaoxin/CausalSentinel)
+- **PhD research** — a proteome-wide causal screen for metabolic liver disease and obesity. A candidate has to reproduce across two independent proteomic platforms and survive colocalization and sensitivity checks before I take it seriously.
+- **[CausalSentinel / OpenCausal](https://github.com/ds4cabs/CausalSentinel)** — I led the engineering for this CABS 2026 team project. It combines published MR estimates with nine public biomedical databases and keeps the evidence behind each result available for review. [Browse 991 protein dossiers](https://ds4cabs.github.io/CausalSentinel/dossiers/) · [Open the card viewer](https://ds4cabs.github.io/CausalSentinel/viewer/)
+- **Reproducible genetics pipelines** — R and Python workflows with per-file diagnostics, explicit provenance, and batch jobs that record why an analysis step was skipped instead of failing silently.
 
-**Type a protein and a disease. Get back one evidence card you can check, line by line.**
+## Selected work
 
-<p align="center">
-  <img src="assets/opencausal-flow.svg" width="100%" alt="OpenCausal: published MR estimates and eight downstream databases go into a ledger that stores every answer word for word; code renders the card; an unsupported claim gets the page rejected. 991 protein dossiers, 101,543 retrieved MR estimates, 9 live public databases, 0 API keys needed." />
-</p>
+- **AbdomenCT-1K** — helped build and evaluate a public multi-centre abdominal CT benchmark with more than 1,000 scans from 12 hospitals; published in *IEEE Transactions on Pattern Analysis and Machine Intelligence* (2022). [Paper](https://doi.org/10.1109/TPAMI.2021.3100536)
+- **Proteome-wide causal inference for metabolic liver disease** — presented at ESHG 2026; manuscript in revision.
+- **Ultrashort peptide self-assembly** — used molecular dynamics to test the physical drivers of assembly during my MSc at KAUST.
 
-- The card is rendered by code, not written by the model
-- The model writes two sentences — a validator rejects the page if either is unsupported
-- Benchmarked on 20 pairs history already decided: every GO was a drug that launched
-- MR estimates are always *retrieved*, never computed here
+## How I work
 
-<p align="center">
-  <a href="https://github.com/shuchengcaoxin/CausalSentinel">
-    <img src="assets/opencausal-card.png" width="96%" alt="A freshly built evidence card: the run declares that no model was called and validation passed, a reading composed by code from the ledger, then one panel per database — the MR estimate with its instrument and Steiger check, and the clinical development record with max stage per disease" />
-  </a>
-</p>
+I care about whether an analysis can still be checked months later: which data entered, which variants survived each step, and why a result was skipped. That preference shapes both my research code and the tools I build.
 
-**[Explore repository →](https://github.com/shuchengcaoxin/CausalSentinel)** &nbsp;&nbsp; **[Browse 991 protein dossiers →](https://ds4cabs.github.io/CausalSentinel/dossiers/)** &nbsp;&nbsp; **[Card viewer →](https://ds4cabs.github.io/CausalSentinel/viewer/)**
+**Methods:** Mendelian randomization · colocalization · GWAS and pQTL analysis · R · Python · Linux/HPC
 
-<sub>Built as the core of the CABS 2026 team project · <a href="https://github.com/ds4cabs/CausalSentinel">upstream repo</a>, alongside Natalie Huang's OpenSentinel drug-safety module.</sub>
-
-## Background
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>McGill University</strong><br /><br />
-      PhD candidate, Quantitative Life Sciences<br />
-      <sub>Drug-target discovery · graduating 2027</sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>CABS</strong><br /><br />
-      Data Science Summer Intern, 2026<br />
-      <sub>Built a drug-target agent end to end; mentored a teammate to a working one</sub>
-    </td>
-    <td width="34%" valign="top">
-      <strong>Published</strong><br /><br />
-      <em>Nature Communications</em> (accepted, 2026) · <em>Advanced Science</em> (2023) · <em>IEEE TPAMI</em> (2021)<br />
-      <sub>ESHG 2026 poster, Gothenburg — proteome-wide causal inference for metabolic liver disease</sub>
-    </td>
-  </tr>
-</table>
-
-## Toolkit
-
-`Python` · `R` · `Bash` · `Git` · Mendelian randomization · colocalization · GWAS / pQTL · LLM agents · RAG · tool calling
-
-## Connect
-
-[Website](https://shuchengcaoxin.github.io) · [Google Scholar](https://scholar.google.com/citations?user=q1cAyE0AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/shucheng-bangli-cao/) · [ResearchGate](https://www.researchgate.net/profile/Shucheng-Cao) · [Email](mailto:shucheng.cao@mail.mcgill.ca)
-
-<p align="center"><sub>Graduating 2027 — open to roles where causal inference and large-scale statistical modelling drive real decisions.</sub></p>
+<sub>Based in Montréal. I expect to finish my PhD in 2027 and am interested in roles in causal inference, statistical genetics, or biomedical data science.</sub>
