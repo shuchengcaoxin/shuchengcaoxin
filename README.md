@@ -10,6 +10,11 @@
   <a href="mailto:shucheng.cao@mail.mcgill.ca">Email</a>
 </p>
 
+<p align="center">
+  <strong>Open to opportunities</strong><br />
+  Graduating in 2027; available for 2026–27 internships and 2027 full-time roles.
+</p>
+
 I’m **Shucheng Cao**, also known and published as **Bangli Cao** (曹书诚), a PhD candidate in Quantitative Life Sciences at McGill University.
 
 I study whether circulating proteins contribute causally to obesity and metabolic liver disease. Most of my work uses Mendelian randomization, colocalization, and large-scale GWAS and pQTL data. I also build research software when the evidence trail is difficult to inspect.
@@ -61,5 +66,3 @@ The final page is rendered from a structured ledger. If model-written prose cont
 I care about whether an analysis can still be checked months later: which data entered, which variants survived each step, and why a result was skipped. That preference shapes both my genetics pipelines and the research tools I build.
 
 **Methods:** Mendelian randomization · colocalization · GWAS and pQTL analysis · R · Python · Linux/HPC
-
-<sub>Based in Montréal. Graduating in 2027 and interested in work at the intersection of causal inference, statistical genetics, and biomedical data science.</sub>
