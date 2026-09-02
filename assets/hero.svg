@@ -1,116 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Shucheng Cao — causal genetics, Mendelian randomization, AI agents for drug-target evidence">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#0E1013"/>
-      <stop offset="55%"  stop-color="#15181D"/>
-      <stop offset="100%" stop-color="#1E2229"/>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Shucheng Cao, causal genetics and research software</title>
+  <desc id="desc">An editorial-style profile banner showing Shucheng Cao, also known as Bangli Cao, and a variant-to-protein-to-disease causal path.</desc>
 
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="1.4" cy="1.4" r="1.4" fill="#E0A83C" opacity="0.10"/>
-    </pattern>
+  <rect width="1200" height="260" fill="#193C33"/>
+  <path d="M0 0H1200V8H0Z" fill="#D2917C"/>
 
-    <filter id="glow" x="-140%" y="-140%" width="380%" height="380%">
-      <feGaussianBlur stdDeviation="7" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+  <!-- identity -->
+  <g transform="translate(68 47)">
+    <text x="0" y="0" fill="#D2917C" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="2.2">CAUSAL GENETICS / RESEARCH SOFTWARE</text>
+    <text x="0" y="69" fill="#F3F0E8" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="600" letter-spacing="-1.2">Shucheng Cao</text>
+    <text x="2" y="105" fill="#AFC2BA" font-family="Georgia, 'Times New Roman', serif" font-size="22">(Bangli Cao) · 曹书诚</text>
+    <line x1="2" y1="132" x2="500" y2="132" stroke="#55786D" stroke-width="1"/>
+    <text x="2" y="160" fill="#F3F0E8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="15">PhD candidate · McGill University · Montréal</text>
+  </g>
 
-    <filter id="softglow" x="-160%" y="-160%" width="420%" height="420%">
-      <feGaussianBlur stdDeviation="14" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+  <line x1="672" y1="40" x2="672" y2="220" stroke="#55786D" stroke-width="1"/>
 
-    <filter id="maskblur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
+  <!-- causal path -->
+  <g transform="translate(738 46)">
+    <text x="0" y="0" fill="#AFC2BA" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.6">ONE QUESTION, SEVERAL CHECKS</text>
 
-    <!-- the faint network fades out behind the three labels, so no stray edge
-         crosses the words VARIANT / PROTEIN / DISEASE -->
-    <mask id="clearlabels" maskUnits="userSpaceOnUse" x="-120" y="-220" width="760" height="440">
-      <rect x="-120" y="-220" width="760" height="440" fill="#FFFFFF"/>
-      <g filter="url(#maskblur)" fill="#000000">
-        <rect x="6"   y="17" width="80" height="20" rx="10"/>
-        <rect x="198" y="17" width="80" height="20" rx="10"/>
-        <rect x="390" y="17" width="80" height="20" rx="10"/>
+    <g transform="translate(6 45)">
+      <line x1="48" y1="39" x2="156" y2="39" stroke="#83B8A5" stroke-width="2"/>
+      <path d="M156 39L146 33V45Z" fill="#83B8A5"/>
+      <line x1="210" y1="39" x2="318" y2="39" stroke="#83B8A5" stroke-width="2"/>
+      <path d="M318 39L308 33V45Z" fill="#83B8A5"/>
+
+      <circle cx="28" cy="39" r="27" fill="#193C33" stroke="#83B8A5" stroke-width="2"/>
+      <circle cx="190" cy="39" r="27" fill="#193C33" stroke="#83B8A5" stroke-width="2"/>
+      <circle cx="352" cy="39" r="27" fill="#193C33" stroke="#D2917C" stroke-width="2"/>
+
+      <g fill="#F3F0E8" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" text-anchor="middle">
+        <text x="28" y="46">G</text>
+        <text x="190" y="46">X</text>
+        <text x="352" y="46">Y</text>
       </g>
-    </mask>
-
-    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#E0A83C"/>
-      <stop offset="100%" stop-color="#F3C978"/>
-    </linearGradient>
-
-    <style>
-      .h  { font-family: "Segoe UI", Inter, -apple-system, "Helvetica Neue", Arial, sans-serif; }
-    </style>
-  </defs>
-
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#dots)"/>
-
-  <!-- ═══ left: identity ═══════════════════════════════════════════════════ -->
-  <rect x="74" y="62" width="46" height="4" rx="2" fill="#E0A83C"/>
-  <text class="h" x="72" y="140" font-size="60" font-weight="700" fill="#F5F2EC" letter-spacing="-0.5">Shucheng Cao</text>
-  <text class="h" x="74" y="182" font-size="21" fill="#C9C2B6">Causal Genetics &#183; Mendelian Randomization &#183; AI Agents</text>
-  <text class="h" x="75" y="222" font-size="12.5" font-weight="700" fill="#E0A83C" letter-spacing="3.4">EVIDENCE  &#183;  PROVENANCE  &#183;  DRUG TARGETS</text>
-  <text class="h" x="75" y="252" font-size="13.5" fill="#8C8578">PhD candidate, Quantitative Life Sciences &#183; McGill University</text>
-
-  <!-- ═══ right: one causal path found through a noisy network ═════════════ -->
-  <g transform="translate(690,150)">
-
-    <!-- faint background network: the noise the method has to see through -->
-    <g mask="url(#clearlabels)">
-      <g stroke="#E0A83C" stroke-width="1" fill="none" opacity="0.22">
-        <path d="M40,-96 L142,-58"/>
-        <path d="M142,-58 L96,10"/>
-        <path d="M96,10 L34,60"/>
-        <path d="M226,-104 L300,-52"/>
-        <path d="M300,-52 L262,26"/>
-        <path d="M262,26 L330,72"/>
-        <path d="M142,-58 L300,-52"/>
-        <path d="M96,10 L262,26"/>
-        <path d="M170,86 L262,26"/>
-        <path d="M170,86 L96,10"/>
-        <path d="M388,-70 L448,-8"/>
-        <path d="M448,-8 L392,58"/>
-        <path d="M300,-52 L388,-70"/>
-        <path d="M262,26 L448,-8"/>
-      </g>
-      <g fill="#0E1013" stroke="#E0A83C" stroke-width="1.3" opacity="0.5">
-        <circle cx="40"  cy="-96"  r="5.5"/>
-        <circle cx="142" cy="-58"  r="6.5"/>
-        <circle cx="96"  cy="10"   r="5.5"/>
-        <circle cx="34"  cy="60"   r="5"/>
-        <circle cx="226" cy="-104" r="5"/>
-        <circle cx="300" cy="-52"  r="6.5"/>
-        <circle cx="262" cy="26"   r="6"/>
-        <circle cx="330" cy="72"   r="5"/>
-        <circle cx="170" cy="86"   r="5.5"/>
-        <circle cx="388" cy="-70"  r="5.5"/>
-        <circle cx="448" cy="-8"   r="6"/>
-        <circle cx="392" cy="58"   r="5"/>
+      <g fill="#AFC2BA" font-family="Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.2" text-anchor="middle">
+        <text x="28" y="83">VARIANT</text>
+        <text x="190" y="83">PROTEIN</text>
+        <text x="352" y="83">DISEASE</text>
       </g>
     </g>
 
-    <!-- the path that survives: variant -> protein -> disease -->
-    <g filter="url(#softglow)" opacity="0.55">
-      <path d="M78,-14 L214,-14 M262,-14 L398,-14" stroke="#E0A83C" stroke-width="3" fill="none"/>
+    <line x1="6" y1="156" x2="358" y2="156" stroke="#55786D" stroke-width="1"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="12">
+      <circle cx="12" cy="181" r="3.5" fill="#83B8A5"/>
+      <text x="24" y="185" fill="#F3F0E8">replication</text>
+      <circle cx="129" cy="181" r="3.5" fill="#83B8A5"/>
+      <text x="141" y="185" fill="#F3F0E8">colocalization</text>
+      <circle cx="268" cy="181" r="3.5" fill="#D2917C"/>
+      <text x="280" y="185" fill="#F3F0E8">sensitivity</text>
     </g>
-    <path d="M78,-14 L206,-14" stroke="url(#path)" stroke-width="2.6" fill="none"/>
-    <polygon points="214,-14 202,-20 202,-8" fill="#E0A83C"/>
-    <path d="M262,-14 L390,-14" stroke="url(#path)" stroke-width="2.6" fill="none"/>
-    <polygon points="398,-14 386,-20 386,-8" fill="#F3C978"/>
-
-    <g filter="url(#glow)">
-      <circle cx="46"  cy="-14" r="27" fill="#0E1013" stroke="#E0A83C" stroke-width="2.4"/>
-      <circle cx="238" cy="-14" r="27" fill="#0E1013" stroke="#E0A83C" stroke-width="2.4"/>
-      <circle cx="430" cy="-14" r="27" fill="#0E1013" stroke="#F3C978" stroke-width="2.4"/>
-    </g>
-    <text class="h" x="46"  y="-7" font-size="17" font-weight="700" fill="#F5F2EC" text-anchor="middle">G</text>
-    <text class="h" x="238" y="-7" font-size="17" font-weight="700" fill="#F5F2EC" text-anchor="middle">X</text>
-    <text class="h" x="430" y="-7" font-size="17" font-weight="700" fill="#F5F2EC" text-anchor="middle">Y</text>
-    <text class="h" x="46"  y="30" font-size="11.5" fill="#8C8578" text-anchor="middle" letter-spacing="0.6">VARIANT</text>
-    <text class="h" x="238" y="30" font-size="11.5" fill="#8C8578" text-anchor="middle" letter-spacing="0.6">PROTEIN</text>
-    <text class="h" x="430" y="30" font-size="11.5" fill="#8C8578" text-anchor="middle" letter-spacing="0.6">DISEASE</text>
   </g>
 </svg>
